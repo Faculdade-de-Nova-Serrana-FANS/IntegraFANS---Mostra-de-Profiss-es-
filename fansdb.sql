@@ -1,0 +1,14 @@
+CREATE DATABASE fansdb;
+
+USE fansdb;
+
+CREATE TABLE inscricoes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  idade INT NOT NULL,
+  telefone VARCHAR(20),
+  email VARCHAR(100) UNIQUE,
+  curso VARCHAR(100),
+  outro VARCHAR(100),
+  criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

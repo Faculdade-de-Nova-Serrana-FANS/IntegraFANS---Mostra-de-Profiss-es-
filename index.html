@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Mostra de Profissões - FANS 2025</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo.png" alt="Logo FANS" width="100" height="40" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#evento">Evento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#inscricao">Inscreva-se</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-users"></i> Redes Sociais
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.facebook.com/fans.edu"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a class="dropdown-item" href="https://www.instagram.com/faculdade_fans/ "><i class="fab fa-instagram"></i> Instagram</a>
+            <a class="dropdown-item" href="https://www.linkedin.com/company/faculdade-de-nova-serrana--/posts/?feedView=all"><i class="fab fa-linkedin"></i> Linkedin</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div class="carousel slide" id="carouselsite" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselsite" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselsite" data-slide-to="1"></li>
+      <li data-target="#carouselsite" data-slide-to="2"></li>
+      <li data-target="#carouselsite" data-slide-to="3"></li>
+      <li data-target="#carouselsite" data-slide-to="4"></li>
+      <li data-target="#carouselsite" data-slide-to="5"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <!-- Item 1 -->
+      <div class="carousel-item active">
+        <img src="./img/administracao.jpg" alt="Primeiro Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Administração</h1>
+          <p class="lead">Forma profissionais para gerir organizações, otimizando recursos e estratégias.</p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="carousel-item">
+        <img src="./img/contabeis.jpg" alt="Segundo Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Ciências Contábeis</h1>
+          <p class="lead">Prepara especialistas em registrar, analisar e interpretar informações financeiras.</p>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="carousel-item">
+        <img src="./img/direito.jpg" alt="Terceiro Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Direito</h1>
+          <p class="lead">Capacita profissionais para atuar na aplicação e interpretação das leis e na defesa da
+            justiça.</p>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="carousel-item">
+        <img src="./img/engsoftware.jpg" alt="Quarto Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Engenharia de Software</h1>
+          <p class="lead">Desenvolve habilidades para projetar, criar e manter sistemas e aplicações digitais.</p>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="carousel-item">
+        <img src="./img/pedagogia.jpg" alt="Quinto Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Pedagogia</h1>
+          <p class="lead">Foca na formação de educadores para atuar na aprendizagem e no desenvolvimento humano.</p>
+        </div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="carousel-item">
+        <img src="./img/psicologia.jpg" alt="Sexto Slide" class="d-block w-100" style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h1>Psicologia</h1>
+          <p class="lead">Estuda o comportamento humano e promove saúde mental e bem-estar.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles -->
+    <a href="#carouselsite" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a href="#carouselsite" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only">Avançar</span>
+    </a>
+  </div>
+
+  <!--Section Evento-->
+  <section id="evento">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4 text-center"><i class="fas fa-video text-primary"></i> Confira aqui o que te espera na FANS
+        </h1>
+        <p class="lead text-center">Veja em alguns videos a graduação que você quer, para conhecê-la desde agora.</p>
+        <hr>
+      </div>
+      <div class="col-12">
+        <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+          <li class="nav-item">
+            <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Administração</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Ciência Contábeis</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Direito</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nav-item-04" class="nav-link" id="nav-pills-04" data-toggle="pill">Engenharia de Software</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nav-item-05" class="nav-link" id="nav-pills-05" data-toggle="pill">Pedagogia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nav-item-06" class="nav-link" id="nav-pills-06" data-toggle="pill">Psicologia</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="nav-pills-content">
+          <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!--<iframe src="https://www.youtube.com/embed/reVV6qKVOuM" frameborder="0" class="embed-responsive-item"></iframe>-->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/lk_SHfhDiXk?si=Fh3o7yafuv9wan-L"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Administração forma profissionais preparados para atuar na gestão de empresas e instituições públicas ou privadas, desenvolvendo habilidades para planejar, organizar e coordenar recursos humanos, financeiros e materiais. Durante a graduação, o estudante aprende conceitos de economia, contabilidade, marketing, logística e finanças, adquirindo uma visão ampla do funcionamento das organizações.</p>
+                <p>Além da base teórica, o curso também estimula o desenvolvimento de competências práticas, como liderança, tomada de decisão, análise de cenários e resolução de problemas. Essas habilidades são fundamentais para lidar com os desafios do mercado e para garantir eficiência e inovação nos processos administrativos.</p>
+                <p>O profissional de Administração encontra oportunidades em diferentes áreas, como gestão de pessoas, planejamento estratégico, consultoria, empreendedorismo e comércio internacional. Essa versatilidade torna a carreira uma das mais procuradas, oferecendo grande campo de atuação e possibilidades de crescimento profissional.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="nav-item-02" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!--<iframe src="https://www.youtube.com/embed/9cKDcL-XX-I" frameborder="0" class="embed-responsive-item"></iframe>-->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Wa_HPPoWZC0?si=P4nUHpk5482ejkMv"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Ciências Contábeis prepara profissionais para compreender, registrar e interpretar as informações financeiras e patrimoniais de uma organização. Durante a graduação, o estudante aprende fundamentos de contabilidade, auditoria, controladoria, legislação tributária e finanças, com foco na transparência e na tomada de decisões estratégicas.</p>
+                <p>A formação também desenvolve competências analíticas e éticas, fundamentais para lidar com informações sensíveis e garantir a conformidade das empresas com normas legais e regulatórias. O aluno é incentivado a aplicar os conhecimentos teóricos em situações práticas, utilizando ferramentas de gestão e análise de dados.</p>
+                <p>O contador pode atuar em escritórios de contabilidade, empresas de diversos setores, instituições financeiras, órgãos públicos e até como autônomo. A carreira oferece estabilidade e grande demanda no mercado, já que todas as organizações precisam de profissionais especializados na gestão contábil.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="nav-item-03" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!--<iframe src="https://www.youtube.com/embed/B-4uTV_V8Ro"" frameborder="0" class="embed-responsive-item"></iframe>-->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/XyDzdYiLsmA?si=KHkYMRsSbopPyn8H"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Direito capacita profissionais para interpretar, aplicar e elaborar normas jurídicas, contribuindo para a defesa da justiça e da cidadania. Durante a graduação, o estudante tem contato com diferentes áreas, como direito constitucional, civil, penal, trabalhista, empresarial e internacional.</p>
+                <p>A formação estimula a argumentação, o raciocínio lógico, a leitura crítica e a capacidade de análise de conflitos. Além disso, os alunos desenvolvem habilidades práticas por meio de estágios, núcleos de prática jurídica e simulações, que aproximam a teoria da realidade profissional.</p>
+                <p>O bacharel em Direito pode atuar como advogado, juiz, promotor, defensor público, delegado, consultor ou em carreiras públicas diversas, mediante aprovação em exames e concursos. A versatilidade e a relevância social da profissão tornam a área uma das mais tradicionais e valorizadas.</p>
+              </div>
+            </div> <!-- aqui fechava a row que estava faltando -->
+          </div>
+
+          <div class="tab-pane fade show" id="nav-item-04" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FLX9_QqzDAs?si=KhlmINLoxakVetL4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Engenharia de Software forma profissionais especializados no desenvolvimento, análise e manutenção de sistemas computacionais. Durante a graduação, o estudante aprende fundamentos de programação, bancos de dados, inteligência artificial, segurança da informação e metodologias de desenvolvimento ágil.</p>
+                <p>Além da parte técnica, a formação enfatiza a importância da gestão de projetos, do trabalho em equipe e da capacidade de resolver problemas complexos com soluções inovadoras. O aluno é incentivado a unir raciocínio lógico e criatividade para desenvolver softwares que atendam às demandas do mercado.</p>
+                <p>O engenheiro de software pode atuar em empresas de tecnologia, startups, instituições financeiras, órgãos públicos ou como empreendedor. Trata-se de uma área em constante expansão, com alta demanda e oportunidades no Brasil e no exterior.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="nav-item-05" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!--<iframe src="https://www.youtube.com/embed/B-4uTV_V8Ro"" frameborder="0" class="embed-responsive-item"></iframe>-->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FkS1AeFNrIM?si=hdmLg8gpUwFX0mGj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Pedagogia forma profissionais para atuar no campo da educação, seja como professores na educação infantil e nos anos iniciais do ensino fundamental, seja em funções de gestão escolar e coordenação pedagógica. A graduação envolve o estudo de metodologias de ensino, psicologia da educação, políticas educacionais e gestão de processos de aprendizagem.</p>
+                <p>O aluno desenvolve competências para planejar e aplicar práticas pedagógicas inclusivas, criativas e inovadoras, sempre considerando as necessidades dos estudantes e o contexto sociocultural. A formação também prepara o futuro pedagogo para contribuir com o desenvolvimento integral de crianças, jovens e adultos.</p>
+                <p>O pedagogo pode atuar em escolas, secretarias de educação, projetos sociais, editoras de material didático e em programas de educação corporativa. É uma carreira que alia vocação, compromisso social e impacto direto na formação de cidadãos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show" id="nav-item-06" role="tabpanel">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!--<iframe src="https://www.youtube.com/embed/B-4uTV_V8Ro"" frameborder="0" class="embed-responsive-item"></iframe>-->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOuVxRq4_tE?si=6mwhcnRqu7a57S-A"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <p>O curso de Psicologia dedica-se ao estudo do comportamento humano, dos processos mentais e das relações sociais. Durante a graduação, o aluno tem contato com áreas como psicologia clínica, organizacional, escolar, social e do desenvolvimento.</p>
+                <p>A formação busca desenvolver habilidades de escuta, análise, empatia e intervenção em diferentes contextos, sempre com foco no bem-estar e na saúde mental. O estudante também aprende a aplicar métodos científicos e ferramentas práticas em atendimentos, pesquisas e projetos sociais.</p>
+                <p>O psicólogo pode atuar em consultórios, hospitais, escolas, empresas, ONGs e órgãos públicos. É uma profissão que exige responsabilidade ética e constante atualização, com grande relevância para a qualidade de vida e o equilíbrio emocional da sociedade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+  <!--Section: Inscreva-se-->
+  <section id="inscricao">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4 text-center my-5"><i class="far fa-address-card text-primary"></i> Inscreva-se</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <form action="processa.php" method="POST">
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <label for="inputNome">Seu Nome</label>
+                <input type="text" name="nome" id="inputNome" class="form-control" placeholder="Digite seu nome" required>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="inputIdade">Idade</label>
+                <input type="text" name="idade" id="inputIdade" class="form-control" placeholder="Digite sua idade"  required>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="inputTelefone">Telefone</label>
+                <input type="text" name="telefone" class="form-control" id="inputTelefone" placeholder="Digite seu telefone">
+              </div>
+              <!--<div class="form-row">-->
+              <div class="form-group col-sm-12">
+                <label for="inputEmail">E-mail</label>
+                <input type="text" name="email" class="form-control" id="inputEmail" placeholder="Digite seu e-mail" required>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="inputCurso">Curso Pretendido</label>
+                <select id="inputCurso" name="curso" class="form-control" required>
+                  <option selected>Escolher...</option>
+                  <option>Administração</option>
+                  <option>Contábeis</option>
+                  <option>Direito</option>
+                  <option>Engenharia de Software</option>
+                  <option>Pedagogia</option>
+                  <option>Psicologia</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="inputOutro">Outro</label>
+                <input type="text" name="outro" class="form-control" id="inputOutro"
+                  placeholder="Digite um curso ainda não oferecido pela FANS">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <div class="form-check">
+                  <label for="" class="form-check-label">
+                    <input type="checkbox" name="" id="" class="form-check-input">Desejo receber novidades por email.
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <a href="" tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover"
+                data-placement="right" data-trigger="focus" title=" Nunc luctus seds"
+                data-content="Phasellus odio odio, condimentum in malesuada quis">Ajuda</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section: Mensagem-->
+  <section id="mensagem">
+    <div class="col-12 mt-5">
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">“A escolha de um curso de graduação representa uma etapa crucial para quem deseja seguir uma
+          carreira. É fundamental avaliar diferentes aspectos para garantir que a decisão esteja alinhada ao seu perfil
+          e às suas aspirações profissionais.”</p>
+      </blockquote>
+      <footer class="blockquote-footer text-center">&copy; cerk4do <cite title="Titulo">- Prof. Felipe de Paula Oliveira
+          - Engenharia de Sotware - Faculdade de Nova Serrana</cite></footer>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+</body>
+
+</html>
